@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State saat tombol dalam keadaan ditekan -->
+    <item
+        android:drawable="@drawable/calender1"
+        android:state_pressed="true" />
+
+    <!-- State saat tombol dalam keadaan normal -->
+    <item
+        android:drawable="@drawable/calender2"/>
+</selector>

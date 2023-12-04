@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#A5A5A5"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+    <!-- Calendar icon -->
+    <item
+        android:drawable="@drawable/calender2"
+        android:gravity="center" />
+</layer-list>

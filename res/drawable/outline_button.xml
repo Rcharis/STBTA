@@ -1,0 +1,19 @@
+<!-- res/drawable/outline_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/blue" /> <!-- Ganti dengan warna garis pinggir yang Anda inginkan -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/darker_gray" /> <!-- Ganti dengan warna garis pinggir yang Anda inginkan saat tombol tidak ditekan -->
+        </shape>
+    </item>
+</selector>
